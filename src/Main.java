@@ -17,6 +17,20 @@ public class Main {
         for (int c = 0; c <= 2; c++) {
             System.out.print(mas3[c] + ", ");
         }
+        System.out.println(" ");
+        System.out.println("Задание 3");
+        for (int i1 = 2; i1 >= 0; i1--) {
+            System.out.print(mas[i1] + ", ");
+        }
+        System.out.println(" ");
+        for (int b1 = 2; b1 >= 0; b1--) {
+            System.out.print(mas2[b1] + ", ");
+        }
+        System.out.println(" ");
+        for (int c1 = 2; c1 >= 0; c1--) {
+            System.out.print(mas3[c1] + ", ");
+        }
+
     }
 }
 
