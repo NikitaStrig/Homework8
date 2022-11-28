@@ -30,7 +30,19 @@ public class Main {
         for (int c1 = 2; c1 >= 0; c1--) {
             System.out.print(mas3[c1] + ", ");
         }
+        System.out.println(" ");
+        System.out.println("Задание 4");
 
+        for (int i3 = 0; i3 <= 2; i3++) {
+            if (mas[i3] % 2 == 0) {
+                System.out.print(mas[i3] + ", ");
+            }
+            else  {
+                mas[i3] = mas[i3] + 1;
+                System.out.print(mas[i3] + ", ");
+            }
+
+        }
     }
-}
 
+}
